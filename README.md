@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+<h1 align="center">Hello! I'm Daniel</h1>
+<h2 align="center">Challenge #20: REACT personal portfolio</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr />
 
-## Available Scripts
+### 👨‍💻This project repo can be found at TBD
 
-In the project directory, you can run:
+### 📫How to reach me **daniel.d.kim13@gmail.com**
 
-### `npm start`
+#### Previous GW Boot Camp Assignments:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - Challenge #1: Horiseon Front Page Refactor (HTML, CSS)
+    - Challenge #2: Personal Portfolio (HTML, CSS)
+    - Challenge #3: Password Generator (HTML, CSS, JS)
+    - Challenge #4: JavaScript Quiz (HTML, CSS, JS, DOM)
+    - Challenge #5: Work Day Scheduler (HTML, CSS, JS, DOM, Bootstrap, jQuery, jQueryUI, Moment)
+    - Challenge #6: Weather Dashboard (HTML, CSS, JS, DOM, jQuery, Ajax, Server-side API)
+    - Project #1: CityGirl Project (HTML, Bulma CSS Framework, DOM, JS, Ajax, Server-side API )
+    - Challenge #9: README generator (markdown, node.js, inquirer npm)
+    - Challenge #10: OOP - Team Profile Generator (node.js, npm: inquirer, jest)
+    - Challenge #11: Express.js - Note taker (node.js, express.js, heroku)
+    - Challenge #12: mySQL - Employee Tracker (node.js, mySQL, various NPMs)
+    - Challenge #13: ORM - E Commerce back end (node.js, mySql, various NPMs)
+    - Challenge #14: MVC - Tech Blog (node.js, mySql, Sequelize.js, handlebars.js, various NPMs)
+    - Project #2: WAG Project(HTML, CSS, Bulma, DOM, Ajax, Node.js, handlebars.js, mySql, Sequelize.js, various NPMs)
+    - Challenge #17: Regex tutorial Git gist
+    - Challenge #18: NoSQL - Social Network API (mongodb, mongoose, node.js, various NPMs)
+    - Challenge #19: PWA - Budget Tracker (Progressive Web Application [service workers, indexeddb, manifest.webmanifest])
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<hr />
 
-### `npm test`
+<h2 align="center"><b>About the Project</b></h4>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>This project is all about creating my portfolio using REACT front-end framework.</p>
 
-### `npm run build`
+<hr />
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h4><u>User Story</u></h4>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
 
-### `npm run eject`
+<h4><u>Acceptance Criteria</u></h4>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p><b>GIVEN a single-page application portfolio for a web developer</b></p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    WHEN I load the portfolio
+    THEN I am presented with a page containing a header, a section for content, and a footer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    WHEN I view the header
+    THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    WHEN I view the navigation titles
+    THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 
-## Learn More
+    WHEN I click on a navigation title
+    THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    WHEN I load the portfolio the first time
+    THEN the About Me title and section are selected by default
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    WHEN I am presented with the About Me section
+    THEN I see a recent photo or avatar of the developer and a short bio about them
 
-### Code Splitting
+    WHEN I am presented with the Portfolio section
+    THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    WHEN I am presented with the Contact section
+    THEN I see a contact form with fields for a name, an email address, and a message
 
-### Analyzing the Bundle Size
+    WHEN I move my cursor out of one of the form fields without entering text
+    THEN I receive a notification that this field is required
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    WHEN I enter text into the email address field
+    THEN I receive a notification if I have entered an invalid email address
 
-### Making a Progressive Web App
+    WHEN I am presented with the Resume section
+    THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    WHEN I view the footer
+    THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-### Advanced Configuration
+<hr />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screen Capture
 
-### Deployment
+![Screen Capture](TBD)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
