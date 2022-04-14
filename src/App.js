@@ -1,11 +1,19 @@
+import React, { useState } from 'react';
 import "bulma/css/bulma.min.css";
-import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer"
+
+import ContactForm from './components/Contact';
 
 function App() {
+
   return (
     <div>
-      <h1 className="is-size-1">REACT Project</h1>
-      <h2>with Bulma CSS Framework</h2>
+      <Header />
+      <>
+      <ContactForm />
+      </>
+      <Footer />
     </div>
   );
 }
