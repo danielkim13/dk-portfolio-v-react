@@ -9,26 +9,12 @@ function Nav() {
         </a>
       </div>
 
-      <div id="navMenu" className="navbar-menu is-active pr-2">
+      <div id="navMenu" className="navbar-menu is-active pr-4">
         <div className="navbar-end">
-          <a className="navbar-item">About Me</a>
-
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Portfolio</a>
-
-            <div className="navbar-dropdown">
-              <a className="navbar-item">Project one</a>
-              <a className="navbar-item">Project two</a>
-              <a className="navbar-item">Project three</a>
-              <a className="navbar-item">Project four</a>
-              <a className="navbar-item">Project five</a>
-              <a className="navbar-item">Project six</a>
-            </div>
-          </div>
-
-          <a className="navbar-item">Contact</a>
-
-          <a className="navbar-item">Resume</a>
+          <a className="navbar-item px-5">About Me</a>
+          <a className="navbar-item px-5">Portfolio</a>
+          <a className="navbar-item px-5">Contact</a>
+          <a className="navbar-item px-5">Resume</a>
         </div>
       </div>
     </nav>

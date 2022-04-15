@@ -7,8 +7,8 @@ export default function Footer() {
   };
 
   return (
-    <footer class="footer mt-5">
-      <div class="columns is-mobile content has-text-centered">
+    <footer className="footer mt-5">
+      <div className="columns is-mobile content has-text-centered">
         <div className="column is-6 has-text-centered p-3 is-flex is-align-items-center">
           <p>
             <strong>&copy; 2022</strong> Daniel Kim. All rights reserved. The source code is licensed
