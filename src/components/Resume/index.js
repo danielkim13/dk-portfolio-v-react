@@ -130,14 +130,14 @@ function Resume() {
     <>
       <section className="columns mt-3 is-mobile">
         <div className="column is-half is-offset-one-quarter">
-          <p className="is-size-5 has-text-centered my-3">Download My Resume</p>
+          <p className="is-size-3 has-text-centered">Download My Resume</p>
           <a className="is-flex is-justify-content-center pt-5" href={myResume} download>
             <i className="fa-solid fa-file-pdf fa-2xl"></i>
           </a>
         </div>
       </section>
       <section className="columns is-justify-content-center is-mobile">
-        <p className="is-size-3 pt-6">Proficiencies</p>
+        <p className="is-size-4 pt-6">Proficiencies</p>
       </section>
       <section className="columns is-justify-content-around is-flex-wrap-wrap is-mobile">
         <div className="column is-mobile has-text-centered">

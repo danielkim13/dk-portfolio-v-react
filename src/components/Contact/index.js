@@ -67,7 +67,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 className="is-size-3-mobile is-size-3 has-text-centered mt-2">Contact Me</h1>
+      <h1 className="is-size-3-mobile is-size-3 has-text-centered mt-3">Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="columns is-mobile">
           <div className="column is-three-fifths is-offset-one-fifth field">
