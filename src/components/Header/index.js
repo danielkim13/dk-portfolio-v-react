@@ -1,9 +1,9 @@
 import Nav from "./Nav";
 
-function Header() {
+function Header({tab, setTab}) {
   return (
     <header>
-      <Nav />
+      <Nav tab={tab} setTab={setTab} />
     </header>
   );
 }
