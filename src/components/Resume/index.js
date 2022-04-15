@@ -75,10 +75,6 @@ function Resume() {
       category: "Paradigm",
     },
     {
-      name: "Progressive Web Application (PWA)",
-      category: "Paradigm",
-    },
-    {
       name: "MySql",
       category: "Database",
     },
@@ -139,11 +135,11 @@ function Resume() {
             <i className="fa-solid fa-file-pdf fa-2xl"></i>
           </a>
         </div>
-        </section>
-        <section className="columns is-justify-content-center is-mobile">
-        <p className="is-size-5 pt-6">Proficiencies</p>
-        </section>
-        <section className="columns is-justify-content-around is-flex-wrap-wrap is-mobile">
+      </section>
+      <section className="columns is-justify-content-center is-mobile">
+        <p className="is-size-3 pt-6">Proficiencies</p>
+      </section>
+      <section className="columns is-justify-content-around is-flex-wrap-wrap is-mobile">
         <div className="column is-mobile has-text-centered">
           <p className="is-size-4">
             <u>Front-End</u>
