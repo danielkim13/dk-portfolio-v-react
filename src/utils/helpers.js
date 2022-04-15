@@ -7,7 +7,7 @@ export function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-// export function validateNameInput(name){
-//   const regex=/.+/gmi
-//   return regex.text(String(name));
-// }
+export function validateInput(value) {
+  const regex = /.+/gim;
+  return regex.test(String(value));
+}

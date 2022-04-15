@@ -1,35 +1,61 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail, validateInput } from "../../utils/helpers";
 import "../Contact/contact.css";
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: "", email: "", message: "" });
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorEmail, setErrorEmail] = useState("");
+  const [errorName, setErrorName] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
   const { name, email, message } = formState;
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
+    if (!errorEmail && !errorName && !errorMsg) {
       console.log("Submit Form", formState);
     }
   };
 
-  const handleChange = (e) => {
+  const handleNameChange = (e) => {
+    if (e.target.name === "name") {
+      const isValid = validateInput(e.target.value);
+      if (!isValid) {
+        setErrorName(`${e.target.name} is required`);
+      } else {
+        setErrorName("");
+      }
+    }
+    if (!errorName) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log("Handle Form", formState);
+    }
+  };
+
+  const handleEmailChange = (e) => {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage("Email is invalid. Try Again!");
+        setErrorEmail("Email is invalid. Try Again!");
       } else {
-        setErrorMessage("");
+        setErrorEmail("");
       }
     }
-    if (!e.target.value.length) {
-      setErrorMessage(`${e.target.name} is required.`);
-    } else {
-      setErrorMessage("");
+    if (!errorEmail) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log("Handle Form", formState);
     }
+  };
 
-    if (!errorMessage) {
+  const handleMsgChange = (e) => {
+    if (e.target.name === "message") {
+      const isValid = validateInput(e.target.value);
+      if (!isValid) {
+        setErrorMsg(`${e.target.name} is required`);
+      } else {
+        setErrorMsg("");
+      }
+    }
+    if (!errorName) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log("Handle Form", formState);
     }
@@ -49,31 +75,31 @@ function ContactForm() {
               Name
             </label>
             <div className="control has-icons-left">
-              <input className={errorMessage ? "input is-danger" : "input"} type="text" name="name" defaultValue={name} placeholder="name" onBlur={handleChange} />
+              <input className={errorName ? "input is-danger" : "input"} type="text" name="name" defaultValue={name} placeholder="name" onBlur={handleNameChange} />
               <span className="icon is-small is-left">
                 <i className="fa-solid fa-user"></i>
               </span>
             </div>
-            {errorMessage && <p className="help is-danger">Name is required</p>}
+            {errorName && <p className="help is-danger">Name is required</p>}
 
             <label className="label mt-1" htmlFor="email">
               Email
             </label>
             <div className="control has-icons-left">
-              <input className={errorMessage ? "input is-danger" : "input"} type="email" name="email" defaultValue={email} placeholder="email" onBlur={handleChange} />
+              <input className={errorEmail ? "input is-danger" : "input"} type="email" name="email" defaultValue={email} placeholder="email" onBlur={handleEmailChange} />
               <span className="icon is-small is-left">
                 <i className="fas fa-envelope"></i>
               </span>
             </div>
-            {errorMessage && <p className="help is-danger">This email is invalid</p>}
+            {errorEmail && <p className="help is-danger">This email is invalid</p>}
 
             <label className="label mt-1" htmlFor="message">
               Message
             </label>
             <div className="control">
-              <textarea className={errorMessage ? "textarea is-danger" : "textarea"} name="message" defaultValue={message} placeholder="Textarea" onBlur={handleChange}></textarea>
+              <textarea className={errorMsg ? "textarea is-danger" : "textarea"} name="message" defaultValue={message} placeholder="Textarea" onBlur={handleMsgChange}></textarea>
             </div>
-            {errorMessage && <p className="help is-danger">Message is required</p>}
+            {errorMsg && <p className="help is-danger">Message is required</p>}
 
             <div className="field is-grouped pt-3">
               <div className="control">
