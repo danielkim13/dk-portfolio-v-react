@@ -62,7 +62,7 @@ function ContactForm() {
   };
 
   const backHome = () => {
-    window.reload("/");
+    window.location.reload("/");
   };
 
   return (
