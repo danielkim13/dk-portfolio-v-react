@@ -1,12 +1,4 @@
-function Project(props) {
-  const name = props.projectList.name;
-  const profileImage = props.projectList.profileImage;
-  const image = props.projectList.image;
-  const description = props.projectList.description;
-  const gitHub = props.projectList.gitHub;
-  const deployed = props.projectList.deployed;
-  const contributor = props.projectList.contributor;
-
+function Project({ name, profileImage, image, description, gitHub, deployed, contributor }) {
   return (
     <div className="card column m-1">
       <div className="card-image">

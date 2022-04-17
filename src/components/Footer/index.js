@@ -1,9 +1,12 @@
+// import "../../components/Footer/footer.css";
+// import styles from "../../components/Footer/footer.module.css";
+
 export default function Footer() {
   const url = {
     github: "https://github.com/danielkim13",
     linkedin: "https://www.linkedin.com/in/daniel-k-85698a112/",
     facebook: "https://www.facebook.com/danny.kim.73113528",
-    instagram: "https://www.instagram.com/proj._dk_photography"
+    instagram: "https://www.instagram.com/proj._dk_photography",
   };
 
   return (
@@ -28,7 +31,7 @@ export default function Footer() {
               <i className="fa-brands fa-facebook-f fa-xl"></i>
             </a>
             <a href={url.instagram} target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-instagram fa-xl"></i>
+              <i className="fa-brands fa-instagram fa-xl"></i>
             </a>
           </div>
         </div>
