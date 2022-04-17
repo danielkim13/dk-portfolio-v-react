@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dk-portfolio-v-react/static/css/main.2abfcfde.css",
+    "main.js": "/dk-portfolio-v-react/static/js/main.daac54a0.js",
+    "static/media/dk.jpg": "/dk-portfolio-v-react/static/media/dk.80b798295a98b9f2f219.jpg",
+    "static/media/wag.png": "/dk-portfolio-v-react/static/media/wag.c2538616f2dcb0b79fda.png",
+    "static/media/runBuddy.jpeg": "/dk-portfolio-v-react/static/media/runBuddy.000e1b5ff4f0b912c97f.jpeg",
+    "static/media/dk_profile.jpg": "/dk-portfolio-v-react/static/media/dk_profile.34b2514bbbfff7ad7917.jpg",
+    "static/media/allAboutTechNews.png": "/dk-portfolio-v-react/static/media/allAboutTechNews.8cd33eaa6498edf7a9ea.png",
+    "static/media/cityGirl.png": "/dk-portfolio-v-react/static/media/cityGirl.ccc57ca2c14068ed1ee5.png",
+    "static/media/Daniel_Kim_Resume.pdf": "/dk-portfolio-v-react/static/media/Daniel_Kim_Resume.e4da79876a04397bdbea.pdf",
+    "static/media/budgetChaser.png": "/dk-portfolio-v-react/static/media/budgetChaser.07dcb6da7fa6e537d38b.png",
+    "static/media/dk_sign_trans.png": "/dk-portfolio-v-react/static/media/dk_sign_trans.2cd4718504638222988d.png",
+    "static/media/passwordGen.png": "/dk-portfolio-v-react/static/media/passwordGen.bb4367a9ad5cec62bf59.png",
+    "static/media/dk_signature.png": "/dk-portfolio-v-react/static/media/dk_signature.af584876c40685914dc1.png",
+    "index.html": "/dk-portfolio-v-react/index.html",
+    "main.2abfcfde.css.map": "/dk-portfolio-v-react/static/css/main.2abfcfde.css.map",
+    "main.daac54a0.js.map": "/dk-portfolio-v-react/static/js/main.daac54a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2abfcfde.css",
+    "static/js/main.daac54a0.js"
+  ]
+}
