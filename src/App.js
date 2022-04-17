@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import ContactForm from "./components/Contact";
 import { capitalizeFirstLetter } from "./utils/helpers";
 
@@ -15,24 +15,46 @@ function App() {
     document.title = capitalizeFirstLetter(tab);
   }, [tab]);
 
-  const renderPage = () => {
-    switch (tab) {
-      case "about":
-        return <About />;
-      case "portfolio":
-        return <Portfolio />;
-      case "contact":
-        return <ContactForm />;
-      case "resume":
-        return <Resume />;
-      default:
-        return null;
-    }
-  };
+  let test;
+
+  switch (tab) {
+    case "about":
+      test = <About />;
+      break;
+    case "portfolio":
+      test = <Projects />;
+      break;
+    case "contact":
+      test = <ContactForm />;
+      break;
+    case "resume":
+      test = <Resume />;
+      break;
+    default:
+      test = null;
+  }
+
+  // const RenderPage = () => {
+  //   switch (tab) {
+  //     case "about":
+  //       return <About />;
+  //       break;
+  //     case "portfolio":
+  //       return <Portfolio />;
+  //       break;
+  //     case "contact":
+  //       return <ContactForm />;
+  //     case "resume":
+  //       return <Resume />;
+  //     default:
+  //       return null;
+  //   }
+  // };
   return (
     <>
       <Header tab={tab} setTab={setTab} />
-      <main>{renderPage()}</main>
+      {/* <main>{RenderPage()}</main> */}
+      <main>{test}</main>
       <Footer />
     </>
   );
