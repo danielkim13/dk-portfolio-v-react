@@ -3,7 +3,7 @@
 
 <hr />
 
-### 👨‍💻This project repo can be found at TBD
+### 👨‍💻This project repo can be found at [Here](https://github.com/danielkim13/dk-portfolio-v-react)
 
 ### 📫How to reach me **daniel.d.kim13@gmail.com**
 
