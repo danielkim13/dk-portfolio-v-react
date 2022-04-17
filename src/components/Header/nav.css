@@ -1,3 +1,7 @@
 .trans {
   font-size: 20px;
 }
+
+.navbar-end p {
+  cursor: pointer;
+}

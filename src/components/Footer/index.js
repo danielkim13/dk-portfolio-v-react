@@ -18,16 +18,16 @@ export default function Footer() {
         <div className="column is-3 is-offset-3 has-text-centered p-3">
           <p>Social Connect</p>
           <div className="is-flex is-justify-content-center is-justify-content-space-evenly">
-            <a href={url.github} target="_blank">
+            <a href={url.github} target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github fa-xl"></i>
             </a>
-            <a href={url.linkedin} target="_blank">
+            <a href={url.linkedin} target="_blank" rel="noreferrer">
               <i className="fa-brands fa-linkedin fa-xl"></i>
             </a>
-            <a href={url.facebook} target="_blank">
+            <a href={url.facebook} target="_blank" rel="noreferrer">
               <i className="fa-brands fa-facebook-f fa-xl"></i>
             </a>
-            <a href={url.instagram} target="_blank">
+            <a href={url.instagram} target="_blank" rel="noreferrer">
             <i className="fa-brands fa-instagram fa-xl"></i>
             </a>
           </div>
