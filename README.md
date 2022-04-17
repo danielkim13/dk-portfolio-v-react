@@ -86,7 +86,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 <hr />
 
-## Screen Capture
+## DK Portfolio Homepage
 
-![Screen Capture](TBD)
+![DK Portfolio](./src/assets/gif/DKportfolio.gif)
 
