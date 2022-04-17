@@ -1,6 +1,4 @@
 import Nav from "./Nav";
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Header({ tab, setTab }) {
   return (
