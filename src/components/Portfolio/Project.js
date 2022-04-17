@@ -11,14 +11,14 @@ function Project(props) {
     <div className="card column m-1">
       <div className="card-image">
         <figure className="image is-4by3">
-          <img src={require(`../../assets/img/${image}`)} alt="Project Image" />
+          <img src={require(`../../assets/img/${image}`)} alt="Project webpage snap" />
         </figure>
       </div>
       <div className="card-content is-flex is-flex-wrap-wrap">
         <div className="media">
           <div className="media-left">
             <figure className="image is-48x48">
-              <img src={require(`../../assets/img/${profileImage}`)} alt="Profile Image" />
+              <img src={require(`../../assets/img/${profileImage}`)} alt="DK profile pic" />
             </figure>
           </div>
           <div className="media-content">
@@ -32,11 +32,11 @@ function Project(props) {
         <div className="content has-text-centered">
           <p>{description}</p>
           <hr />
-          <a href={gitHub} target="_blank">
+          <a href={gitHub} target="_blank" rel="noreferrer">
             GitHub Repository
           </a>
           <br />
-          <a href={deployed} target="_blank">
+          <a href={deployed} target="_blank" rel="noreferrer">
             Deployed Webpage
           </a>
         </div>
