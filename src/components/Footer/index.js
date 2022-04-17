@@ -1,5 +1,4 @@
-// import "../../components/Footer/footer.css";
-// import styles from "../../components/Footer/footer.module.css";
+import "./footer.css";
 
 export default function Footer() {
   const url = {
