@@ -21,7 +21,7 @@ function App() {
         return <About />;
         break;
       case "portfolio":
-        return <Portfolio />;
+        return <Projects />;
         break;
       case "contact":
         return <ContactForm />;
