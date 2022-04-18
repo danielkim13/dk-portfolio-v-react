@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dk-portfolio-v-react/static/css/main.6e3f48f9.css",
-    "main.js": "/dk-portfolio-v-react/static/js/main.ef809dc3.js",
+    "main.js": "/dk-portfolio-v-react/static/js/main.fcf3e124.js",
     "static/media/dk.jpg": "/dk-portfolio-v-react/static/media/dk.80b798295a98b9f2f219.jpg",
     "static/media/wag.png": "/dk-portfolio-v-react/static/media/wag.c2538616f2dcb0b79fda.png",
     "static/media/runBuddy.jpeg": "/dk-portfolio-v-react/static/media/runBuddy.000e1b5ff4f0b912c97f.jpeg",
@@ -15,10 +15,10 @@
     "static/media/dk_signature.png": "/dk-portfolio-v-react/static/media/dk_signature.af584876c40685914dc1.png",
     "index.html": "/dk-portfolio-v-react/index.html",
     "main.6e3f48f9.css.map": "/dk-portfolio-v-react/static/css/main.6e3f48f9.css.map",
-    "main.ef809dc3.js.map": "/dk-portfolio-v-react/static/js/main.ef809dc3.js.map"
+    "main.fcf3e124.js.map": "/dk-portfolio-v-react/static/js/main.fcf3e124.js.map"
   },
   "entrypoints": [
     "static/css/main.6e3f48f9.css",
-    "static/js/main.ef809dc3.js"
+    "static/js/main.fcf3e124.js"
   ]
 }
